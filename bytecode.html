@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="display"> 23</h1>
+        <button class="box1" onclick="incre()">increase</button>
+        <br>
+        <button class="bpx2" onclick="decre()">decrese</button>
+   <script>
+    let inc=23;
+    function incre(){
+        inc++;
+        document.querySelector("#display").textContent=`${inc}`;
+
+    }
+   function decre(){
+  
+        inc--;
+        document.querySelector("#display").textContent=`${inc}`;
+    }
+ 
+
+   </script>
+</body>
+</html>
